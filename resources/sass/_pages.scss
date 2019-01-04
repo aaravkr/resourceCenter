@@ -1,0 +1,166 @@
+.main_section_download , .main_section_walkthrough,.main_section_faq{
+    margin: 35px 30px;
+
+}
+.inner_main_section_download,.inner_main_section_walkthrough, .inner_main_section_faq{
+padding: 37px;
+background:#fff !important;
+}
+// .download_section{
+//     border: 1px solid #f3f3f3;
+// }
+.deep-blue{
+    color: #193438;
+}
+.light_dark{
+    color: #4d4e4e;
+}
+
+
+//walk through
+
+.Dcontainer {
+    height: auto;
+}
+.faq-nav {
+  flex-direction: column;
+  margin: 0 0 32px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+.faq-nav .nav-link {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 13px 16px;
+/*  background-color: #fff;*/
+  border: 0;
+/*  border-bottom: 1px solid #ddd;*/
+  border-radius: 0;
+/*  color: #616161;*/
+  transition: background-color 0.5s ease;
+}
+.faq-nav .nav-link:hover {
+  background-color: #f6f6f6;
+}
+.faq-nav .nav-link.active {
+  background-color: #f6f6f6;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+}
+.faq-nav .nav-link:last-of-type {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom: 0;
+}
+.faq-nav .nav-link i.mdi {
+  margin-right: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+// .tab-content {
+// /*  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);*/
+// }
+.tab-content .card {
+  border-radius: 0;
+}
+.tab-content .card-header {
+  padding: 15px 16px;
+  border-radius: 0;
+  background-color: #f6f6f6;
+}
+.faq .tab-content .card-header h5 {
+  margin: 0;
+}
+.tab-content .card-header h5 button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  color: #616161;
+  text-align: left;
+  white-space: normal;
+}
+.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+  text-decoration: underline;
+    color: blue;
+}
+.tab-content .card-body p {
+  color: #616161;
+}
+.tab-content .card-body p:last-of-type {
+  margin: 0;
+}
+
+.accordion > .card:not(:first-child) {
+  border-top: 0;
+}
+
+/*
+.collapse.show .card-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+*/
+.card-header {
+    border-bottom: 2px solid #ddd !important;
+}
+.dcol-lg-10 {
+    background-color: white;
+    
+}
+.dwalk-through {
+    font-size: 45px;
+    color: black;
+}
+.card {
+    border: none !important;
+   
+}
+.card-body {
+    background-color: ghostwhite;
+}
+.dquestion {
+    color: #f6f6f6;
+}
+.col-lg-10 {
+    padding: 0px !important;
+}
+.card-body ul li a {
+    color: #4d4e4e;
+}
+.card-body ul li a:hover {
+    color: #195c9f;
+}
+
+.walk_through_heading{
+    font-size: 26px !important;
+    color: #4d4e4e !important;
+}
+.card-hearder-walkthrough-topics{
+    padding: 5px 0px 5px 18px !important;
+    background: #f9f9f9;
+}
+.walk_through_body{
+    background: #e0dbdb0d;
+    font-size: 16px !important;
+    padding: 10px 25px 5px 25px !important;
+}
+.walk_through_body > ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  .walk_through_body > ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#b7b7b7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  
+//   .walk_through_body > ul li{
+//       margin: 2px;
+//   }
