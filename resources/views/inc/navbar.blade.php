@@ -21,7 +21,7 @@
                 <span onclick="openNav()" class="hamburger_menu_open" id="open_menu">&#9776;</span>
                 <span onclick="closeNav()" class="hamburger_menu_closed" id="close_menu">&#9776;</span>
             </div>
-            <h1 class="nav_heading flex-grow-1 text-center pt-2 pl-5"> Cyber security resource center</h1>
+            <h3 class="nav_heading flex-grow-1 text-center pt-2 pl-5"> Cyber security resource center</h3>
             <img src="https://res.cloudinary.com/aarav/image/upload/v1546607769/logo_gma1gq.png" class="img-responsive nav_logo">
 
         </nav>

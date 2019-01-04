@@ -9,7 +9,8 @@
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
         <!-- Fonts -->   
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   
     </head>
